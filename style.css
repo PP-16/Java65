@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(49, 179, 136);
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    background-color: rgb(184, 234, 217);
+    color: cadetblue;
+    border-radius: 10px;
+    text-align: center;
+}
+button{
+    width: 100%;
+    background-color: cadetblue;
+    color:dimgrey;
+    font-size: 24px;
+    padding:  14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+}
+
+#main{
+    transition: 0.5s;
+}
+
+.sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: antiquewhite;
+    overflow-x: auto;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidebar a{
+    padding: 8px 8px 8px 30px;
+    font-size: 24px;
+    display: block;
+    text-decoration: none;
+}
+.sidebar .closeBTN{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    cursor: pointer;
+
+}
